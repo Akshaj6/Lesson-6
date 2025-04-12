@@ -1,5 +1,6 @@
 num = int(input("Enter the number :"))
-power = 0
-for i in range(1,num+1):
-    power = power*i
-    print("The new product is ", power)
+power = int(input("Enter the power :"))
+res = 1
+for power in range(power):
+    res = res*num
+print("The product is ", res)
